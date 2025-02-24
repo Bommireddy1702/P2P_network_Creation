@@ -1,22 +1,30 @@
 Peer-to-Peer Chat Application
+
 CS 216: Introduction to Blockchain
+
 Assignment 2
+
 Team Information
-*Team Name: Network Miner's
+Team Name: Network Miner's
 Team Members:
 Bommireddy Varun Kumar Reddy(mc230041006)
 Alam Sai Chathura(ce230004004)
 kota Sanjay Kumar(cse230001042)
+
 Project Description
 The Peer-to-Peer (P2P) Chat Application is a decentralized communication system that allows multiple users to engage in real-time messaging without relying on a central server. This application is designed to facilitate simultaneous message sending and receiving through multi-threading, ensuring smooth and efficient communication.
 
-Key Functionalities: 🔹 Multi-Peer Support – Enables multiple nodes to connect and interact within the network. 🔹 Peer Discovery & Tracking – Maintains an active list of connected peers. 🔹 Alphabetical Peer Sorting – Organizes peer names in a sorted order for faster searching and querying. 🔹 Custom Message Format – Ensures structured communication using the format:.
+Key Functionalities: 🔹 Multi-Peer Support – Enables multiple nodes to connect and interact within the network. 🔹 Peer Discovery & Tracking – Maintains an active list of connected peers. 🔹 Alphabetical Peer Sorting – Organizes peer names in a sorted order for faster searching and querying. 🔹 Custom Message Format – Ensures structured communication using the format: 🔹Message Broadcasting – Allow sending a message to multiple peers simultaneously. 🔹Peer Exit Handling-When a peer exits, it is automatically removed from the list of active peers, ensuring that it no longer appears in query results. Additionally, a notification message is broadcasted to all remaining peers, informing them of the peer's departure.
+
 
 Features
 Simultaneous Send & Receive (Multi-threading)
 Peer Discovery & Tracking
 Custom Message Format: <IP_ADDRESS:PORT> <TEAM_NAME>
+Peer Exit Handling
+Message Broadcasting
 Bonus: Persistent Peer Connection (connect() function)
+
 Prerequisites
 Install dependencies: sudo apt update
 sudo apt install g++
@@ -31,7 +39,7 @@ Upon starting, the following menu is displayed:
 
 Enter your name: Netwirk Miner's Enter your port number: 45321 Ip address :127.0.0.1 Server listening on port 45600 & 45700
 
-** Menu **
+* Menu *
 
 Send message
 Query active peers
@@ -72,5 +80,4 @@ Source code
 Configuration files (if any)
 README.md
 Submit the GitHub link on Moodle.
-Deadline
-Submission Date: 22nd February 2025, 11:30 PM
+Deadline:Submission Date: 22nd February 2025, 11:30 PM
